@@ -10,13 +10,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import org.apache.tomcat.jni.Address;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Getter @Setter
+@Setter @Getter
 public class Member {
 
 	@Id @GeneratedValue

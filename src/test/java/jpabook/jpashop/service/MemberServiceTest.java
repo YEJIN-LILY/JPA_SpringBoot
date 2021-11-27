@@ -14,8 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import jpabook.jpashop.domain.Member;
-import jpabook.jpashop.domain.repository.MemberRepository;
-import jpabook.jpashop.domain.service.MemberService;
+import jpabook.jpashop.repository.MemberRepository;
+
 
 
 @RunWith(SpringRunner.class)
