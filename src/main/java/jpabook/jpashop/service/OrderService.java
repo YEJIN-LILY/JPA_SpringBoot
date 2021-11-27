@@ -14,6 +14,7 @@ import jpabook.jpashop.domain.item.Item;
 import jpabook.jpashop.repository.ItemRepository;
 import jpabook.jpashop.repository.MemberRepository;
 import jpabook.jpashop.repository.OrderRepository;
+import jpabook.jpashop.repository.OrderSearch;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -51,9 +52,9 @@ public class OrderService {
 		Order order=orderRepository.findOne(orderId);
 		order.cancel();
 	}
-	/*
+	
 	public List<Order> findOrders(OrderSearch orderSearch){
 		return orderRepository.findAll(orderSearch);
 	}
-	*/
+	
 }
